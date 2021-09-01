@@ -1,4 +1,6 @@
 import axios from "axios";
+import { typeOfHelp } from "../chatbot/ActionProvider";
+
 
 var api;
 
@@ -34,7 +36,7 @@ const getApi = async () => {
   console.log(locationData);
   // var d = new Date();
   const data = {
-    typeOfHelp: "food",
+    typeOfHelp: typeOfHelp ,
     state: locationData.address.state,
     city: locationData.address.city,
     pincode: locationData.address.postcode,
