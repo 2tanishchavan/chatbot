@@ -1,0 +1,27 @@
+.options-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option-button {
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #2845ec;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px rgb(78, 143, 240);
+}
+
+.option-button:hover {
+    background-color: #23a3f8
+}
+
+
+.option-button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
