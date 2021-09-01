@@ -217,5 +217,5 @@ class ActionProvider {
   };
 }
 
-export { userLocationStatus };
+export { userLocationStatus, typeOfHelp };
 export default ActionProvider;
